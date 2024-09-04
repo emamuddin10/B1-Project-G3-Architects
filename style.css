@@ -19,10 +19,14 @@ main{
 .section-title{
    font-size: 2.5rem;
    color: black;
+   padding-bottom: 20px;
+   
 }
 .section-description{
   font-size: .8rem;
   color: gray;
+  padding-bottom: 20px;
+  line-height: 20px;
 }
 .btn-primary{
   font-size: 18px;
@@ -94,6 +98,35 @@ nav a{
   padding: 30px 0px;
 }  
 
+   /* TEAM SECTION DESIGN AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+   .team-img-container img{
+    width: 100%;
+  }
+   .section1-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 0px;
+   }
+   .team-img-container{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.3rem;
+   }
+   .team-content{
+    width: 50%;
+   }
+  .quick-span{
+    color: gray;
+  }
+  .feature-span{
+    color: #ff900e;
+  }
+
+
+
+
 
                      /* BANNER SECTION RESPONSIVE FOR MOBILE */
 
@@ -103,7 +136,7 @@ nav a{
   header{
     padding: 20px;
   }
-  nav{
+  nav , .section1-container{
     flex-direction: column;
   }
   nav > ul{
@@ -114,19 +147,49 @@ nav a{
   .banner-title{
     font-size: 24px;
   }
+  /* TEAM SECTION */
+
+  .team-img-container{
+    grid-template-columns: repeat(1,1fr);
+    /* margin: 0px 30px; */
+  }
+.section1-container{
+  padding: 0px 30px;
+  /* background-color: crimson; */
+
+}
+.team-content{
+  width: 100%;
+ }
+
+.section-title{
+  font-size: 1.7rem;
+}
 }
 
-/* Header responsive for Tablet */
+                        /* Header responsive for Tablet */
 
 @media screen and (min-width:576px) and (max-width:960px){
   header{
-    padding: 20px;
+    padding: 50px;
   }
-  nav{
+  nav ,.section1-container{
     flex-direction: column;
   }
+  .section1-container{
+    padding: 0px 50px;
+    /* background-color: crimson; */
+  
+  }
+  .banner-title{
+    font-size: 2.8rem;
+  }
+  .team-content{
+    width: 100%;
+   }
   
 }
+
 
 
 
