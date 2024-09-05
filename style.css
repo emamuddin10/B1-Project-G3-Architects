@@ -260,6 +260,26 @@ nav a{
   color: white;
   text-align: center;
   padding-top: 30px;
+  position:absolute top center;
+ }
+ .side-border{
+  border-left: 4px solid #ff900e;
+  padding-left: 20px;
+  margin-left: -20px;
+ }
+ .box{
+  max-width: 600px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  height: 100px;
+  padding: 20px;
+  box-shadow: 1px 1px 15px rgb(160, 157, 157);
+ }
+ .feature-container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+
  }
 
 footer{
