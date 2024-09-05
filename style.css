@@ -252,6 +252,15 @@ nav a{
   padding-left: 80px;
   margin-bottom: 10px;
 } */
+ .experience{
+  background-color: #ff900e;
+  border-radius: 5px;
+  height: 100px;
+  width: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+ }
 
 footer{
   margin: 30px;
