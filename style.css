@@ -173,6 +173,36 @@ nav a{
   .sponsor-img-container {
     padding-bottom: 50px;
   }
+  .feature-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    gap: 30px;
+    padding: 30px;
+  
+   }
+  .experience{
+    background-color: #ff900e;
+    border-radius: 5px;
+    height: 100px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    position:absolute top center;
+    position: relative;
+    margin-top:-70px ;
+    margin-left: -70px;
+   }
+   .box{
+    max-width: 600px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 100px;
+    padding: 20px;
+    box-shadow: 1px 1px 15px rgb(160, 157, 157);
+   }
+   
 
   footer{
     background-color: antiquewhite;
@@ -233,7 +263,7 @@ nav a{
 .fact-content{
   padding: 0px 30px;
 }
-}
+
  /* fact section responsive  */
 .section3{
   padding: 0px;
@@ -252,39 +282,45 @@ nav a{
   padding-left: 80px;
   margin-bottom: 10px;
 } */
- .experience{
-  background-color: #ff900e;
-  border-radius: 5px;
-  height: 100px;
-  width: 200px;
-  color: white;
-  text-align: center;
-  padding-top: 30px;
-  position:absolute top center;
- }
+ 
  .side-border{
   border-left: 4px solid #ff900e;
   padding-left: 20px;
   margin-left: -20px;
  }
- .box{
-  max-width: 600px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  height: 100px;
-  padding: 20px;
-  box-shadow: 1px 1px 15px rgb(160, 157, 157);
- }
- .feature-container{
+ 
+
+.feature-img img{
+  width: 80%;
+}
+.box{
+  height: 150px;
+}
+.experience{
+  padding: 30px;
+  width: 100px;
+  height: 20px;
+  font-size: 14px;
+  align-content: center;
+  margin: 0;
+  
+}
+.feature-img{
+  text-align: center;
+}
+.feature-container{
   display: flex;
-  justify-content: space-evenly;
-  gap: 50px;
+  /* justify-content: space-evenly; */
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
 
  }
 
 footer{
   margin: 30px;
   padding: 30px;
+}
 }
 
                                                            /*  RESPONSIVE FOR TABLET */
